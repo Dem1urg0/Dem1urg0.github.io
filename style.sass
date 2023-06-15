@@ -1,0 +1,2007 @@
+*
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Merriweather Sans', sans-serif
+  height: 100%
+
+.container
+  margin-left: 20px
+  margin-right: 20px
+
+.header
+  height: 280px
+
+  a
+    font-size: 11px
+    color: #7e7e7e
+    text-decoration: none
+    text-transform: uppercase
+
+  &__nav
+    height: 27px
+    min-width: 320px
+    background-color: #f6f6f6
+
+    &__account
+      margin-left: 20px
+      margin-right: 20px
+      padding-top: 7px
+
+      &__main
+        display: flex
+        justify-content: space-between
+
+        a:nth-of-type(5)
+          display: none
+
+        a:nth-of-type(4)
+          display: none
+
+      &__other
+        display: none
+
+        img
+          margin-bottom: 3px
+          margin-left: 3px
+
+  &__nav2
+    display: flex
+    justify-content: space-between
+    margin-top: 19px
+    margin-left: 64px
+    margin-right: 78px
+
+    img
+      margin-bottom: 2px
+      margin-left: 4px
+
+  &__face
+    &__logo
+      margin-top: 34px
+
+      a
+        display: flex
+        justify-content: center
+
+      img
+        height: 41px
+        width: 48px
+        margin-right: 11px
+
+      h1
+        font-size: 44px
+        color: #454545
+
+    &__sing
+      display: flex
+      justify-content: center
+      margin-top: 17px
+
+    &__input
+      margin-top: 22px
+      display: flex
+      justify-content: center
+
+      input
+        height: 38px
+        width: 280px
+        border: solid 1px #e1e1e1
+        color: #888
+        padding-left: 11px
+        padding-right: 38px
+        box-sizing: border-box
+        position: relative
+
+      img
+        width: 16px
+        height: 16px
+        position: absolute
+        margin-left: 230px
+        margin-top: 11px
+
+  &__nav3
+    display: flex
+    justify-content: space-between
+    margin-top: 22px
+
+    &__menu
+      img
+        &:first-of-type
+          height: 13px
+          width: 16px
+          margin-right: 10px
+
+        &:nth-of-type(2)
+          height: 12px
+          width: 94px
+
+    &__cart
+      a
+        display: flex
+
+      img
+        height: 18px
+        width: 24px
+        margin-right: 9px
+
+      p
+        color: #565656
+        font-size: 16px
+
+    &__full
+      display: none
+
+      a
+        font-size: 14px
+        font-weight: bold
+        color: #565656
+
+.content
+  margin-top: 17px
+  background-color: #ccc
+
+  &__pay
+    background-color: #cccccc
+    height: 178px
+    min-width: 320px
+    display: flex
+    justify-content: center
+
+    a
+      text-decoration: none
+
+    &__border
+      border: solid 1px rgba(255, 255, 255, 0.3)
+      height: 140px
+      min-width: 300px
+      top: 19px
+      box-sizing: border-box
+      margin-top: 19px
+
+
+      h1, h2, h3
+        color: #fff
+        text-transform: uppercase
+        font-weight: bold
+        text-align: center
+
+      h1
+        font-size: 34px
+        margin-top: 28px
+
+      h2
+        font-size: 14px
+        margin-top: 8px
+
+      h3
+        font-size: 11px
+        margin-top: 8px
+
+  &__slider
+    height: 428px
+    position: relative
+    display: none
+
+    h1
+      font-size: 22px
+      font-weight: bold
+      color: #555
+      text-transform: uppercase
+      padding-top: 70px
+      line-height: 1.57
+      margin-left: 300px
+
+    h2
+      font-size: 74.5px
+      font-weight: 800
+      color: #fff
+      text-transform: uppercase
+      margin-top: 16px
+      line-height: 0.82
+      margin-left: 300px
+
+    h3
+      font-size: 26px
+      font-weight: bold
+      color: #4c4c4c
+      text-transform: uppercase
+      line-height: 0.96
+      margin-top: 14px
+      margin-bottom: 20px
+      margin-left: 300px
+
+    h4
+      font-size: 14.5px
+      font-weight: bold
+      text-transform: uppercase
+      line-height: 1.45
+      margin-left: 300px
+
+      a
+        text-decoration: none
+        color: #333
+
+    .content__posters__lookbook__buttons
+      display: none
+
+    &__arrow
+      border: solid 3px #fff
+      height: 48px
+      width: 48px
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      box-sizing: border-box
+      position: absolute
+      top: 180px
+      left: 22px
+
+      &:last-of-type
+        right: 22px !important
+        left: auto
+
+      img
+        width: 12px
+        height: 18px
+        margin-top: 5px
+
+  &__posters
+    padding-bottom: 20px
+    background-color: #f3f3f3
+    text-transform: uppercase
+    font-weight: bold
+    padding-top: 20px
+
+    &__ex
+      min-width: 280px
+      height: 156px
+      background-color: #ccc
+      display: flex
+      justify-content: center
+      position: relative
+
+      &__arrow
+        display: none
+        border: solid 2px #fff
+        width: 39px
+        height: 38px
+        box-sizing: border-box
+        border-radius: 50%
+        justify-content: center
+        align-items: center
+        position: absolute
+        top: 112px
+
+        &:last-of-type
+          right: 15px
+
+        &:first-of-type
+          left: 15px
+
+        img
+          height: 14px
+          width: 10px
+          margin-top: 6px
+
+
+      a
+        text-decoration: none
+        color: #fff
+
+      &__border
+        border: solid 1px rgba(255, 255, 255, 0.3)
+        box-sizing: border-box
+        width: 260px
+        height: 112px
+        margin-top: 12px
+        position: relative
+
+        h1
+          font-size: 21px
+          margin-top: 30px
+          text-align: center
+
+        h2
+          font-size: 15px
+          text-align: center
+          font-weight: normal
+
+        &__line
+          width: 65px
+          height: 2px
+          background-color: #fff
+          position: absolute
+          top: 55px
+          display: none
+
+          &:first-of-type
+            left: 16px
+
+          &:last-of-type
+            right: 16px
+
+      h3
+        font-size: 12px
+        text-align: center
+        margin-top: 5px
+
+        h1
+          background-color: #fff
+
+    &__hot
+      position: relative
+      min-width: 280px
+      height: 537px
+      background-color: #ccc
+      margin-top: 10px
+
+      a
+        color: #2f2f2f
+        text-decoration: none
+        font-weight: bold
+        text-align: center
+
+        h4
+          font-size: 14px
+          text-transform: lowercase
+          padding-top: 29px
+
+        h1
+          font-size: 21px
+          font-weight: 800
+          margin-top: 11px
+
+        h3
+          font-size: 16px
+          margin-top: 29px
+
+        h2
+          font-size: 14.5px
+          color: #fff
+          margin-top: 366px
+
+      &__line
+        position: absolute
+        top: 86px
+        right: -4px
+        width: 50px
+        height: 1px
+        background-color: #333
+
+        &:first-of-type
+          display: none
+
+    &__jewelry
+      min-width: 280px
+      height: 189px
+      background-color: #cccccc
+      margin-top: 10px
+
+      a
+        text-decoration: none
+        color: #fff
+        text-align: center
+
+        h1
+          font-size: 35px
+          font-weight: bold
+          padding-top: 45px
+
+        h2
+          font-size: 20px
+          font-weight: bold
+          margin-top: 3px
+
+        h3
+          font-size: 15px
+          font-weight: bold
+          margin-top: 38px
+
+    &__accessories
+      background-color: #cccccc
+      min-width: 280px
+      height: 189px
+      margin-top: 10px
+      position: relative
+
+      a
+        text-decoration: none
+        color: #fff
+        text-align: center
+
+        h1
+          font-size: 25px
+          font-weight: 800
+          padding-top: 50px
+
+        h2
+          font-size: 21px
+          margin-top: 8px
+          font-weight: 500
+
+        h3
+          font-size: 15px
+          font-weight: bold
+          margin-top: 35px
+
+      &__line
+        position: absolute
+        background-color: #fff
+        width: 42px
+        height: 2px
+        top: 76px
+
+    &__lookbook
+      position: relative
+      min-width: 280px
+      height: 401px
+      background-color: #cccccc
+      margin-top: 12px
+
+      a
+        text-decoration: none
+        color: #fff
+        text-align: center
+
+        h1
+          font-size: 35px
+          font-weight: bold
+          padding-top: 122px
+
+        h2
+          font-size: 18px
+          font-weight: bold
+          margin-top: 8px
+
+        h3
+          font-size: 30px
+          font-weight: bold
+          margin-top: 19px
+
+        h4
+          font-size: 15px
+          font-weight: bold
+          margin-top: 78px
+
+      &__line
+        top: 183px
+        position: absolute
+        width: 80px
+        height: 1px
+        background-color: #fff
+
+      &__buttons
+        display: flex
+        align-items: center
+        justify-content: center
+
+        &__button
+          border: solid 2px #fff
+          width: 10px
+          height: 10px
+          border-radius: 50%
+          margin-top: 20px
+          margin-left: 12px
+
+          &:hover
+            background-color: #fff
+
+          &:first-child
+            margin-left: 0
+
+    &__news
+      min-width: 280px
+      height: 189px
+      background-color: #cccccc
+      margin-top: 10px
+
+      a
+        text-decoration: none
+        color: #fff
+        text-align: center
+
+        h1
+          font-size: 28px
+          font-weight: bold
+          padding-top: 73px
+
+.first
+  left: 10px
+
+  &__1
+    left: 23px
+
+.second
+  right: 10px
+
+  &__1
+    right: 23px
+
+.products
+  background-color: #ffffff
+  align-items: center
+  display: flex
+  flex-wrap: wrap
+  padding-top: 29px
+
+  &__nav
+    text-align: center
+    margin-top: 30px
+    &__container
+      display: flex
+      justify-content: center
+    div
+      margin-top: 13px
+
+      a
+        text-decoration: none
+        color: #999
+        text-transform: uppercase
+        font-weight: bold
+
+        &:hover
+          color: #444444
+
+    &__active
+      color: #444444 !important
+      border-bottom: #444444 2px solid
+      padding-bottom: 5px
+
+      &__div
+        margin-bottom: 23px
+
+  &__product
+    align-items: center
+    margin-bottom: 50px
+    height: 479px
+    width: 280px
+    margin-right: 10px
+    &:nth-of-type(7),&:nth-of-type(8),&:nth-of-type(6)
+      display: none
+
+
+    a
+      text-decoration: none
+      color: #222
+
+      img
+        width: 88px
+        height: 15px
+        margin-top: 5px
+
+    &__img
+      position: relative
+      display: flex
+      width: 280px
+      height: 364px
+      background-color: #cccccc
+
+      &__black, &__blue, &__red
+        width: 25px
+        height: 25px
+        border: solid 1px #555
+        box-shadow: inset 0 0 0 1px #fff
+        box-sizing: border-box
+        margin-top: 329px
+        margin-left: 10px
+
+      &__black
+        background-color: #0e0c0f
+
+      &__blue
+        background-color: #202a4e
+
+      &__red
+        background-color: #923349
+
+      img
+        width: 95px !important
+        height: 40px !important
+        position: absolute
+        left: -8px
+
+    &__name
+      margin-top: 24px
+      display: flex
+      width: 280px
+      justify-content: space-between
+
+      p
+        font-size: 13px
+        line-height: 1.46
+        color: #444
+
+      h3
+        font-size: 15px
+        font-weight: bold
+
+      &__price
+        &__sale
+          color: #999
+
+    &__buttons
+      width: 280px
+      height: 34px
+      border: 2px solid #444
+      display: flex
+      text-transform: uppercase
+      font-size: 14px
+      font-weight: bold
+      justify-content: center
+      margin-top: 13px
+      box-sizing: border-box
+
+      a
+        margin-top: 8px
+
+      &__line
+        width: 2px
+        height: 16px
+        background-color: #444
+        margin-top: 9px
+        margin-left: 24px
+        margin-right: 28px
+
+    &__add
+      display: flex
+      justify-content: space-between
+      font-style: italic
+      color: #333
+      font-size: 13px
+      width: 280px
+      margin-top: 8px
+
+  &__more
+    display: flex
+    justify-content: center
+    margin-bottom: 80px
+
+    a
+      text-decoration: none
+      color: #555
+      font-size: 14px
+      font-weight: bold
+      text-transform: uppercase
+      margin-left: 20px
+      margin-right: 20px
+
+    &__line
+      width: 75px
+      height: 1px
+      background-color: #ddd
+      margin-top: 8px
+
+.clr
+  height: 4355px
+  background-color: #1f1f1f
+
+.footer
+  min-width: 280px
+  margin-top: -4355px
+  background-color: #1f1f1f
+
+  &__about
+    margin-top: 50px
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+
+    &__nav
+      a
+        font-size: 16px
+        color: #b6b6b6
+        text-decoration: none
+        text-transform: uppercase
+        margin-right: 10px
+
+    &__content
+      margin-top: 30px
+
+
+      &__img
+        height: 120px
+        width: 120px
+        background-color: #ccc
+        flex-shrink: 0
+        float: left
+        margin-right: 20px
+        margin-bottom: 20px
+
+      p
+        color: #888
+        font-size: 14px
+        line-height: 1.43
+        margin-bottom: 17px
+
+      a
+        font-size: 12px
+        font-weight: bold
+        color: #b6b6b6
+        text-transform: uppercase
+        text-decoration: none
+
+        img
+          width: 5px
+          height: 9px
+          margin-left: 5px
+
+  &__blog
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+    margin-bottom: 40px
+
+    &__nav
+      display: flex
+      justify-content: space-between
+      margin-top: 40px
+
+      a
+        word-spacing: 10px
+
+      img
+        width: 5px
+        height: 9px
+        border: #999999 solid 1px
+        border-radius: 50%
+        padding: 4px 6px
+
+        &:first-child
+          margin-right: 2px
+
+    &__posters
+      display: flex
+
+      &__post2
+        display: none
+
+    &__img
+      min-width: 280px
+      height: 205px
+      background-color: #cccccc
+      margin-top: 30px
+      margin-bottom: 18px
+
+    a
+      color: #b6b6b6
+      text-decoration: none
+      text-transform: uppercase
+      font-size: 16px
+      word-spacing: 5px
+      line-height: 1.33
+
+  &__contact
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+    &__messages
+      display: flex
+      justify-content: center
+      flex-wrap: wrap
+
+    &__map
+      width: 280px
+      height: 130px
+      margin-top: 27px
+      margin-bottom: 20px
+
+    a
+      color: #b6b6b6
+      font-size: 16px
+      text-decoration: none
+      text-transform: uppercase
+
+      img
+        width: 5px
+        height: 9px
+        margin-left: 5px
+
+      &:nth-of-type(2)
+        font-size: 12px
+        font-weight: bold
+        color: #aeaeae
+
+    &__name, &__email, &__message
+      width: 280px
+      height: 30px
+      border: solid 1px #666
+      box-sizing: border-box
+      background-color: #2a2a2a
+      color: #888
+      font-size: 12px
+      padding-left: 5px
+      margin-bottom: 10px
+
+    &__message
+      width: 280px
+      height: 100px
+      padding-bottom: 70px
+      resize: vertical
+
+  &__email
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+
+    input
+      width: 280px
+      height: 50px
+      color: #888
+      font-size: 13px
+      background-color: #1f1f1f
+      border: solid 1px #666
+      box-sizing: border-box
+      padding-left: 5px
+      margin-top: 40px
+
+  &__favorite
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+
+    &__nav
+      display: flex
+      justify-content: space-between
+
+      a
+        font-size: 17px
+        color: #b6b6b6
+        text-decoration: none
+        text-transform: uppercase
+        margin-top: 40px
+
+        img
+          width: 5px
+          height: 9px
+          border: #999999 solid 1px
+          border-radius: 50%
+          padding: 4px 6px
+
+    &__products
+      display: flex
+      margin-top: 16px
+
+      a
+        text-decoration: none
+
+      &__product
+        &:nth-of-type(2)
+          margin-left: 20px
+
+        &__img
+          width: 130px
+          height: 169px
+          background-color: #ccc
+
+        &__name
+          font-size: 12px
+          color: #888
+          margin-top: 19px
+
+        &__price
+          color: #fff
+          font-size: 14px
+          margin-top: 15px
+
+          strike
+            color: #8c8b8b
+            margin-right: 8px
+
+  &__twitter
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+
+    &__nav
+      display: flex
+      justify-content: space-between
+      margin-top: 40px
+
+      a
+        text-decoration: none
+        text-transform: uppercase
+        color: #b6b6b6
+        font-size: 17px
+
+      button
+        color: #b5b5b5
+        background-color: #1f1f1f
+        box-sizing: border-box
+        border: solid 1px #b5b5b5
+        height: 23px
+        width: 70px
+        text-transform: uppercase
+        padding-bottom: 1px
+
+    &__comment
+      p
+        color: #888
+        font-size: 14px
+
+        span
+          color: #fff
+
+      &__person
+        display: flex
+        margin-top: 30px
+        margin-bottom: 23px
+
+        &__info
+          margin-left: 20px
+
+          &__name
+            color: #b1b1b1 !important
+            font-size: 17px !important
+            text-transform: uppercase
+            line-height: 0.97
+
+          &__teg
+            color: #777 !important
+            font-size: 13px !important
+
+      &__meta
+        display: flex
+        font-size: 13px
+        color: #666
+        margin-top: 18px
+
+        a
+          text-decoration: none
+          color: #666
+
+        &__data
+          margin-right: 34px
+
+        &__rep
+          margin-right: 20px
+
+          img
+            height: 13px
+            width: 9px
+            margin-right: 8px
+
+        &__ret
+          img
+            width: 14px
+            height: 9px
+            margin-right: 7px
+
+  &__facebook
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+
+    &__nav
+      margin-top: 35px
+      display: flex
+      justify-content: space-between
+
+      a
+        text-decoration: none
+        color: #b6b6b6
+        margin-top: 1px
+
+      button
+        border: solid 1px #b5b5b5
+        background-color: #1f1f1f
+        font-size: 12px
+        color: #b5b5b5
+        width: 60px
+        height: 22px
+
+    p
+      margin-top: 30px
+      color: #888
+      font-size: 14px
+      letter-spacing: -0.35px
+
+      span
+        color: #fff
+
+    &__imgs
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      margin-top: 17px
+
+      &__img
+        width: 70px
+        height: 70px
+        border: 5px solid #2f2f2f
+        box-sizing: border-box
+        background-color: #cccccc
+        margin: 10px
+        &:nth-of-type(7),&:nth-of-type(8)
+          display: none
+
+  &__info
+    border-bottom: 1px dashed #484848
+    padding-bottom: 40px
+    margin-top: 40px
+    margin-bottom: 40px
+
+    a
+      color: #888
+      text-decoration: none
+      font-size: 14px
+
+      &:first-child
+        color: #b6b6b6
+        font-size: 17px
+        text-transform: uppercase
+        margin-top: 0
+
+    &__spacer
+      height: 20px
+
+      &:first-child
+        height: 34px
+
+  &__contacts
+    &__links
+      margin-top: 20px
+      display: flex
+      flex-wrap: wrap
+
+      &__link
+        display: flex
+        justify-content: center
+        height: 40px
+        width: 40px
+        border: 2px #999 solid
+        box-sizing: border-box
+        align-items: center
+        margin: 3px
+
+    p
+      color: #666
+      font-size: 12px
+      margin-top: 20px
+
+  &__img
+    border: solid 2px #999
+    border-radius: 50%
+    height: 45px
+    width: 45px
+    box-sizing: border-box
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 18px
+
+    img
+      width: 17px
+      height: 10px
+      padding-bottom: 2px
+      padding-left: 1px
+
+.nonephone
+  display: none
+
+@media screen and (min-width: 768px)
+  .header
+    height: 160px
+
+    &__nav
+      &__account
+        display: flex
+        justify-content: space-between
+
+        &__main
+          justify-content: left
+
+          a
+            margin-right: 30px
+            margin-left: 0 !important
+
+            &:nth-of-type(4)
+              display: block
+              margin-right: 0
+
+        &__other
+          display: flex
+
+        a
+          margin-left: 30px
+
+          &:first-child
+            margin-left: 0
+
+    &__nav2
+      display: none
+
+    &__nav3
+      &__menu
+        display: none
+
+      &__cart
+        display: none
+
+      &__full
+        display: flex
+        justify-content: space-between
+        flex-grow: 1
+
+    &__face
+      display: flex
+      justify-content: space-between
+      margin-top: 34px
+
+      &__sing
+        display: none
+
+      &__input
+        margin-top: 10px
+
+        input
+          width: 260px
+          height: 32px
+
+        img
+          margin-top: 9px
+          margin-left: 220px
+
+      &__logo
+        margin-top: 0
+  .nonephone
+    display: block !important
+  .content
+    &__pay
+      display: none
+
+    &__slider
+      display: block
+
+    &__posters
+      display: flex
+      justify-content: center
+
+      &__hot
+        display: none
+        margin-top: 0
+        min-width: 228px
+        height: 432px
+
+        a
+          h1
+            font-size: 17px
+            margin-top: 5px
+
+          h3
+            font-size: 13px
+            margin-top: 5px
+
+          h2
+            margin-top: 300px
+
+        &__line
+          width: 30px
+          top: 71px
+
+          &:first-of-type
+            left: 7px
+            display: block
+
+          &:nth-of-type(2)
+            right: 7px
+
+      &__ex, &__lookbook, &__accessories, &__jewelry, &__news
+        margin-right: 0
+
+      &__ex
+        height: 266px
+        width: 476px
+
+        &__border
+          width: 320px
+          height: 138px
+          margin-top: 62px
+
+          &__line
+            display: block
+
+        &__arrow
+          display: flex
+
+        h1
+          font-size: 26px
+          font-weight: bold
+
+        h3
+          margin-top: 35px
+
+      &__lookbook
+        min-width: 228px
+        height: 328px
+        margin-top: 20px
+
+        a
+          h1
+            font-size: 30px
+            padding-top: 74px
+
+          h2
+            font-size: 12px
+
+          h3
+            font-size: 27.5px
+
+          h4
+            margin-top: 65px
+
+        &__line
+          top: 129px
+          width: 71px
+
+          &:first-of-type
+            left: 12px
+
+          &:nth-of-type(2)
+            right: 12px
+
+      &__accessories, &__jewelry
+        height: 154px
+        min-width: 228px
+        margin-top: 20px
+
+      &__jewelry
+        a
+          h1
+            font-size: 25px
+
+          h2
+            font-size: 15.5px
+
+          h3
+            margin-top: 24px
+
+      &__accessories
+        &__line
+          top: 60px
+          width: 30px
+
+        a
+          h1
+            font-size: 20px
+            padding-top: 40px
+
+          h2
+            font-size: 15.5px
+
+          h3
+            margin-top: 25px
+
+      &__block2_1
+        display: flex
+
+      &__news
+        max-width: 228px
+        min-width: 228px
+        height: 162px
+        margin-top: 20px
+
+        a
+          h1
+            font-size: 26px
+            padding-top: 60px
+  .products
+    justify-content: center
+    margin-left: 0
+
+    &__nav
+      display: flex
+      justify-content: space-evenly
+      &__container
+        &__weight
+          width: 584px
+
+    &__product
+      margin-left: 20px
+      height: 435px
+      width: 228px
+      margin-bottom: 0
+      margin-right: 0
+
+      &:nth-of-type(6)
+        display: block
+
+      &__add
+        width: 228px
+
+      &__buttons
+        width: 228px
+
+        &__line
+          margin-left: 10px
+          margin-right: 10px
+
+      &__img
+        width: 228px
+        height: 296px
+
+        &__red, &__blue, &__black
+          margin-top: 260px
+
+      &__name
+        width: 228px
+        margin-top: 19px
+
+    &__more
+      &__line
+        min-width: 250px
+  .clr
+    height: 1640px
+  .footer
+    margin-top: -1640px
+
+    &__main
+      display: flex
+      justify-content: center
+
+    &__about, &__blog, &__contact, &__email
+      border-right: 1px dashed #484848
+      width: 280px
+      padding-right: 15px
+
+    &__blog
+      margin-top: 0
+      padding-top: 40px
+      margin-bottom: 0
+
+      &__nav
+        margin-top: 0
+
+    &__about
+      margin-top: 0
+      padding-top: 40px
+
+    &__contact
+      padding-top: 40px
+
+    &__favorite, &__twitter, &__facebook
+      width: 217px
+      padding-right: 15px
+      padding-left: 15px
+      border-right: 1px dashed #484848
+
+    &__favorite
+      &__products
+        &__product
+          &:nth-of-type(2)
+            display: none
+
+          &__img
+            width: 218px
+            height: 258px
+
+    &__twitter
+      padding-top: 40px
+
+      &__nav
+        margin-top: 0
+
+      &__comment
+        &__meta
+          flex-wrap: wrap
+
+          &__data
+            margin-right: 45px
+            margin-bottom: 5px
+
+    &__facebook
+      height: 354px
+
+      &__nav
+        margin-top: 0
+        padding-top: 35px
+
+      &__imgs
+        margin-top: 0
+
+        &__img
+          width: 66px
+          height: 66px
+          margin: 0
+          margin-top: 20px
+
+    &__info
+      width: 202px
+      padding-left: 13px
+
+      &:nth-of-type(3)
+        height: 270px
+
+      &:nth-of-type(4)
+        height: 314px
+
+    &__contacts
+      p
+        margin-top: 0
+
+      &__container
+        display: flex
+        justify-content: space-between
+
+      &__center
+        display: flex
+        justify-content: center
+
+
+      &__links
+        margin-top: 0
+
+@media screen and (min-width: 980px)
+  .header
+    height: 130px
+
+    &__nav
+      &__account
+        &__main
+          a:nth-of-type(4)
+            display: none
+
+          a:nth-of-type(5)
+            display: block
+
+    &__nav3
+      margin-top: 30px
+
+      &__full
+        justify-content: flex-end
+
+        a
+          margin-left: 40px
+
+    &__face
+      margin-top: 11px
+      position: relative
+      display: flex
+      justify-content: end
+
+      &__logo
+        position: absolute
+        top: 39px
+        left: 0px
+  .content
+    &__slider
+      height: 546px
+
+      h1, h2, h3, h4
+        margin-left: 500px
+
+      h1
+        padding-top: 117px
+        font-size: 25px
+
+      h2
+        font-size: 85px
+        margin-top: 5px
+
+      h3
+        font-size: 30px
+
+      .content__posters__lookbook__buttons
+        display: flex
+        margin-top: 80px
+
+      &__arrow
+        top: 249px
+
+    &__posters
+      padding-top: 30px
+      padding-bottom: 30px
+
+      &__ex
+        height: 346px
+        width: 620px
+
+        h1
+          font-size: 34px
+          margin-top: 55px
+
+        h2
+          font-size: 22px
+
+        h3
+          margin-top: 50px
+          font-size: 14.5px
+
+        &__arrow
+          top: 154px
+
+        &__border
+          margin-top: 84px
+          width: 422px
+          height: 177px
+
+          &__line
+            width: 85px
+            top: 85px
+
+      &__jewelry, &__accessories, &__news
+        min-width: 300px
+        height: 203px
+
+      &__jewelry
+        a
+          h1
+            font-size: 32px
+
+          h2
+            font-size: 18px
+
+      &__accessories
+        a
+          h1
+            font-size: 25px
+
+          h2
+            font-size: 19px
+
+        &__line
+          width: 41px
+
+      &__lookbook
+        width: 300px
+        height: 426px
+
+        a
+          h1
+            padding-top: 141px
+
+          h4
+            margin-top: 100px
+
+        &__line
+          height: 2px
+          top: 194px
+
+          &:nth-of-type(2)
+            right: 47px
+
+          &:first-of-type
+            left: 47px
+
+      &__hot
+        width: 300px
+        height: 569px
+
+        a
+          h1
+            font-size: 19px
+            margin-top: 1px
+
+          h2
+            margin-top: 400px
+
+          h3
+            font-size: 15px
+
+          h4
+            padding-top: 65px
+            font-size: 15px
+
+        &__line
+          width: 40px
+          top: 102px
+
+          &:first-of-type
+            left: 20px
+
+          &:nth-of-type(2)
+            right: 20px
+
+      &__news
+        a
+          h1
+            padding-top: 80px
+            font-size: 28px
+  .products
+    &__nav
+      justify-content: space-between
+
+    &__product
+      width: 300px
+      height: 500px
+
+      &__img
+        width: 300px
+        height: 390px
+        &__red, &__blue, &__black
+          margin-top: 355px
+
+      &__name
+        width: 300px
+
+      &__buttons
+        width: 300px
+
+    &__more
+      &__line
+        min-width: 405px
+  .footer
+    &__about
+      width: 390px
+
+      &__content
+        &__img
+          height: 170px
+          width: 170px
+
+        a
+          margin-left: 190px
+
+    &__blog
+      width: 390px
+
+      &__img
+        height: 128px
+        max-width: 175px
+        min-width: 150px
+
+      a:last-child
+        font-size: 10.5px
+
+      &__posters
+        justify-content: space-around
+
+        &__post2
+          display: block
+          margin-left: 20px
+
+    &__contact
+      width: 390px
+      display: flex
+      flex-wrap: wrap
+
+      &__map
+        width: 370px
+        margin-left: 10px
+
+      &__name
+        width: 370px
+
+      &__email
+        width: 370px
+
+      &__message
+        width: 370px
+
+      a:nth-of-type(2)
+        margin-right: 266px
+
+    &__email
+      width: 390px
+      display: flex
+      justify-content: center
+      padding-bottom: 31px
+
+      input
+        width: 370px
+
+    &__favorite
+      width: 319px
+
+      &__products
+        display: flex
+        justify-content: center
+
+        &__product
+          &__img
+            width: 135px
+            height: 177px
+
+          &:last-of-type
+            display: block
+
+    &__twitter
+      width: 319px
+
+    &__facebook
+      width: 319px
+      padding-bottom: 79px
+
+      &__imgs
+        width: 263px
+
+      &__center
+        display: flex
+        justify-content: center
+
+    &__info
+      padding-bottom: 37.5px
+
+      &__spacer
+        height: 10px
+
+@media screen and (min-width: 1920px)
+  .header
+    &__nav
+      &__account
+        margin-left: 374px
+        margin-right: 374px
+
+    &__face
+      margin-right: 374px
+
+      &__logo
+        left: 354px
+
+    &__nav3
+      margin-right: 374px
+  .second
+    right: 23px
+  .first
+    left: 23px
+  .content
+    &__slider
+      width: 1920px
+      height: 1070px
+
+      .content__posters__lookbook__buttons
+        margin-top: 290px
+
+      &__arrow
+        top: 504px
+
+      h1
+        padding-top: 378px
+        font-size: 30px
+
+      h2
+        font-size: 100px
+
+      h3
+        font-size: 34px
+
+      h1, h2, h3, h4
+        margin-left: 1041px
+
+    &__posters
+      padding-top: 60px
+      padding-bottom: 60px
+
+      &__ex
+        width: 770px
+        height: 430px
+
+        a
+          h1
+            font-size: 40px
+
+          h2
+            font-size: 25px
+
+          h3
+            margin-top: 65px
+
+        &__arrow
+          top: 196px
+
+        &__border
+          width: 501px
+          height: 210px
+          margin-top: 120px
+
+          &__line
+            width: 101px
+            top: 91px
+
+            &:last-of-type
+              right: 30px
+
+            &:first-of-type
+              left: 30px
+
+      &__jewelry
+        margin-top: 30px
+        width: 370px
+        height: 250px
+
+        a
+          h1
+            font-size: 40px
+            padding-top: 85px
+
+          h2
+            font-size: 23px
+
+          h3
+            margin-top: 48px
+
+      &__lookbook
+        margin-top: 30px
+        margin-left: 30px
+        width: 370px
+        height: 530px
+
+        a
+          h1
+            font-size: 35px
+            padding-top: 210px
+
+          h2
+            font-size: 18px
+
+          h3
+            font-size: 30px
+
+          h4
+            margin-top: 116px
+
+        &__line
+          top: 273px
+
+          &:first-of-type
+            left: 65px
+
+          &:nth-of-type(2)
+            right: 65px
+
+      &__accessories
+        margin-top: 30px
+        width: 370px
+        height: 250px
+
+        a
+          h1
+            font-size: 30px
+            padding-top: 81px
+
+          h2
+            font-size: 25px
+
+          h3
+            margin-top: 57px
+
+        &__line
+          width: 50px
+          top: 108px
+
+      &__hot
+        margin-left: 30px
+        width: 370px
+        height: 710px
+
+        a
+          h4
+            font-size: 18px
+
+          h1
+            font-size: 25px
+
+          h3
+            font-size: 20px
+          h2
+            margin-top: 500px
+
+        &__line
+          width: 50px
+          top: 110px
+
+      &__news
+        margin-left: 30px
+        margin-top: 30px
+        min-width: 370px
+        height: 250px
+        font-size: 30px
+        a
+          h1
+            padding-top: 110px
+  .prod-container
+    display: flex
+    justify-content: center
+  .products
+    width: 1170px
+
+    &__product
+      width: 270px
+      &:nth-of-type(7),&:nth-of-type(8)
+        display: block
+      &__img
+        width: 270px
+        height: 351px
+        &__black,&__blue,&__red
+          margin-top: 315px
+      &__name
+        width: 270px
+      &__buttons
+        width: 270px
+      &__add
+        width: 270px
+  .clr
+    height: 1670px
+  .footer
+    margin-top: -1670px
+    &__about,&__blog,&__contact,&__email
+      width: 475px
+      padding-right: 25px
+      box-sizing: border-box
+    &__blog,&__contact,&__email
+      padding-top: 60px
+    &__favorite,&__twitter,&__facebook
+      width: 400px
+    &__about,&__favorite,&__info
+      padding-top: 89px
+    &__favorite
+      &__nav
+        a
+          margin-top: 0
+    &__info
+      margin-top: 0
+    &__about
+      &__content
+        &__img
+          height: 180px
+          width: 180px
+        a
+          margin-left: 0
+        p
+          margin-bottom: 3px
+        &__messages
+          justify-content: center
+    &__blog
+      &__img
+        max-width: 205px
+        min-width: 205px
+        height: 150px
+      &__posters
+        justify-content: space-between
+    &__contact
+      &__map
+        margin-left: 0px
+        width: 215px
+        height: 215px
+        margin-top: 0
+      &__container
+        display: flex
+        margin-top: 30px
+      &__name
+        width: 215px
+      &__email
+        width: 215px
+      &__message
+        width: 215px
+        height: 135px
+      &__messages
+        justify-content: flex-start
+        margin-left: 20px
+        width: 215px
+    &__email
+      padding-bottom: 97px
+      height: 361px
+      input
+        width: 450px
+        margin-top: 0
+    &__favorite
+      padding-top: 89px !important
+      &__products
+        justify-content: space-between
+        &__product
+          &__img
+            width: 150px
+            height: 195px
+    &__favorite,&__twitter,&__facebook
+      padding-right: 25px
+      padding-left: 25px
+      box-sizing: border-box
+      padding-top: 60px
+    &__facebook
+      height: 527px
+      &__nav
+        padding-top: 0
+      &__imgs
+        width: 329px
+        justify-content: space-between
+        &__img
+          &:nth-of-type(7),&:nth-of-type(8)
+            display: block
+    &__info
+      padding-top: 60px
+      margin-bottom: 0
+      &:first-of-type
+        padding-top: 89px
+      &:nth-of-type(4)
+        height: 264px
+      &__spacer
+        height: 20px
+    &__contacts
+      &__container
+        margin-top: 40px
+        justify-content: space-around
